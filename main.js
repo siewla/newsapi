@@ -22,7 +22,7 @@ const renderArticle = (article) => {
     const sourceEl = document.createElement('h4')
     sourceEl.innerText = `Source : ${article?.source?.name}`
     const publisedDatetime = document.createElement('h4')
-    publisedDatetime.innerText = `Published Datetime : ${article.publishedAt}`
+    publisedDatetime.innerText = `Published Datetime : ${article?.publishedAt}`
 
     articleContainerDiv.append(titleEl)
     articleContainerDiv.append(authorEl)
